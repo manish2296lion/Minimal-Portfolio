@@ -1,5 +1,5 @@
 body{
-    background-color: #f7f7f7;
+    background-color: #fdfdfd;
 }
 .profilepic{
     background-image: url('../images/profile_pic.jpg');
@@ -27,12 +27,51 @@ hr{
         list-style: none;
         display: inline-block;
         font-size: 20px;
-        margin-left: 30px;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px
 
 }
 .contact ul li a i{
             color: black;
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+.contact ul li a i:hover{
+            color: deepskyblue;
 }
 .contact{
     text-align: center;
+}
+.resume,.lorsgk,.lortka{
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    /*background-color: black;*/
+    box-shadow: 0px 0px 50px -10px rgba(0,0,0,.4);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.resume{
+    background: url('../images/resume_thumbnail.jpg');
+    background-size: contain;
+}
+.lorsgk{
+    background: url('../images/LORsgk.jpeg');
+    background-size: contain;
+}
+.lortka{
+
+}
+.lorsgk:hover,.resume:hover,.lortka:hover{
+    box-shadow: 0px 0px 50px -13px rgba(0,0,0,.3);
+}
+.doc_container{
+    text-align: center;
+}
+.doc_text{
+    font-size: 20px;
+    margin-bottom: 15px;
 }
